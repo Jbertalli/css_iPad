@@ -430,3 +430,7 @@
    position: relative;
    z-index: 5;
 }
+
+.hidden {
+   mask-image: linear-gradient(12deg, transparent 9.2%, black 9.2%);
+}

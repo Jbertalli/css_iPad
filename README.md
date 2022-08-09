@@ -33,12 +33,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
 
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## CSS iPad
 ![Alt text](public/images/screenshot.png?raw=true)
+![Alt text](public/images/Flower_Screenshot.png?raw=true)
 
 ## Technologies
 * CSS
