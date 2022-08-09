@@ -40,4 +40,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## CSS iPad
 ![Alt text](public/images/screenshot.png?raw=true)
 
-## Technologies Used
+## Technologies
+* CSS
+* HTML
+* JavaScript
+* React.js
+* Docker
