@@ -52,7 +52,7 @@ export default function Front () {
                                     <div style={{ transform: 'translate(15px)', fontSize: '50px', fontWeight: '100', marginBottom: '9px', color: 'white' }}>
                                         { time }
                                     </div>
-                                    <div style={{ transform: 'translate(8.5px, 4px)', fontSize: '13px', fontWeight: '300', color: 'white' }}>
+                                    <div style={{ transform: 'translate(0px, 4px)', fontSize: '13px', fontWeight: '300', color: 'white' }}>
                                         { today }
                                     </div>
                                 </>
