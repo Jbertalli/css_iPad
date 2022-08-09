@@ -9,8 +9,9 @@ export default function Back () {
                 <div>
                     <div>
                         <div className={styles.camera} style={{ margin: '-504px 0px 0px 15px' }} />
-                        <div className={styles.box1} />
+                        <div className={styles.box1} style={{ transform: 'translate(.5px, -.5px)', position: 'static' }} />
                         <div className={styles.box2} />
+                        <div style={{ position: 'absolute', border: '.5px solid #000000', width: '52px', height: '52px', borderRadius: '10px', zIndex: '3', transform: 'translate(16.5px, -50.5px)' }} />
                     </div>
                     <div className={styles.cameras} style={{ transform: 'translate(23px, -146px)' }}>
                         <div>
@@ -71,14 +72,11 @@ export default function Back () {
                     color="red"
                     style={{ transform: 'translate(169px, -200px) scale(1.2)' }}
                 /> */}
-                <Logo />
+                <div style={{ transform: 'translateY(-5px)' }}>
+                    <Logo />
+                </div>
             </div>
             <div className={styles.dimension} style={{ transform: 'translate(102px, -514.7px)' }} />
-            {/* <Button 
-                content='Red Button'
-                color='red'
-                onClick={() => (console.log('hello'))} 
-            /> */}
         </>
     );
 }

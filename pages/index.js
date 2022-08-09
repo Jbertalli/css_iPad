@@ -11,10 +11,10 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div style={{ transform: 'scale(0.8)' }}>
-          <div style={{ transform: 'translate(-270px, -150px)' }}>
+          <div style={{ transform: 'translate(170px, -150px)' }}>
             <Back />
           </div>
-          <div style={{ transform: 'translate(30px)' }}>
+          <div style={{ transform: 'translate(30px, -566px)' }}>
             <Front />
           </div>
         </div>
