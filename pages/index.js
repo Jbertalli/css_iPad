@@ -5,20 +5,20 @@ import React, { useEffect, useState } from 'react';
 import Mobileipad from '../components/mobileipad';
 
 export default function Home() {
-  const [isDesktop, setDesktop] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth > 440) {
-        setDesktop(true);
+        setIsDesktop(true);
     } else {
-        setDesktop(false);
+        setIsDesktop(false);
     }
 
     const updateMedia = () => {
     if (window.innerWidth > 440) {
-        setDesktop(true);
+        setIsDesktop(true);
     } else {
-        setDesktop(false);
+        setIsDesktop(false);
     }
     };
       window.addEventListener('resize', updateMedia);
