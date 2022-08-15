@@ -4,12 +4,12 @@ import React, { useEffect } from 'react';
 
 export default function Mobileipadair () {
 
-    // useEffect(() => {
-    //     document.body.style.overflow = "hidden";
-    // return () => {
-    //     document.body.style.overflow = "visible";
-    //     }
-    // }, []);
+    useEffect(() => {
+        document.body.style.overflow = "hidden";
+    return () => {
+        document.body.style.overflow = "visible";
+        }
+    }, []);
 
     return (
         <>
