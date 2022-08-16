@@ -6,7 +6,7 @@ import Mobileipadair from '../components/mobileipadair';
 
 export default function Air () {
     const [isDesktop, setIsDesktop] = useState(false);
-
+ 
     useEffect(() => {
         if (window.innerWidth > 440) {
             setIsDesktop(true);
