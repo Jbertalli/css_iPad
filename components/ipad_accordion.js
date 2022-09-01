@@ -39,7 +39,7 @@ export default function Accordion () {
                 </div>
                 <div style={{ transform: 'translateY(-1049px)', position: 'relative', zIndex: '3'  }}>
                     <div className={styles.frame} style={{ background: 'linear-gradient(to bottom, #FAE0D8, #fAB19B)', position: 'relative', zIndex: '6', transform: 'translate(-796px, -3028px) rotate(-35deg) perspective(5000px) rotateX(20deg) rotateY(35deg) scale(1, 0.85)' }}>
-                        <div className={styles.hidden2} style={{ transform: 'translate(-301px, 419.7px)' }}>
+                        <div style={{ transform: 'translate(-301px, 419.7px)' }}>
                             <Back />
                         </div>
                     </div>
