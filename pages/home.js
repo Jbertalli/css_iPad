@@ -18,9 +18,9 @@ export default function Home () {
                 <title>iPad Accordion - Apple</title>
                 <meta name="description" content="apple, ipad" />
             </Head>
-            <div>
-                <Grid style={{ display: 'flex', justifyContent: 'center', transform: 'translate(107px)', position: 'fixed' }}>
-                    <Grid.Column style={{ width: '450px', transform: 'translateX(541px)' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', position: 'fixed' }}>
+                <Grid>
+                    <Grid.Column style={{ width: '450px', transform: 'translate(1300px, 4600px) scale(2.7)' }}>
                         <Accordion />
                     </Grid.Column>
                 </Grid>
