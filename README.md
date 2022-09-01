@@ -39,6 +39,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ![Alt text](public/images/screenshot.png?raw=true)
 ![Alt text](public/images/Flower_Screenshot.png?raw=true)
 ![Alt text](public/images/air.png?raw=true)
+![Alt text](public/images/Accordion.png?raw=true)
 
 ## Technologies
 * CSS
